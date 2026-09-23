@@ -1,6 +1,6 @@
 function Categories() {
   return (
-    <div class="categories">
+    <div className="categories">
       <p>Development</p>
       <p>Business</p>
       <p>It & Software</p>

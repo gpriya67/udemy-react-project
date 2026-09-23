@@ -1,12 +1,12 @@
 function Topics() {
   return (
-    <div class="topics">
-      <h1 class="topics__title">Topics recommended for you</h1>
-      <div class="topics__input">
+    <div className="topics">
+      <h1 className="topics__title">Topics recommended for you</h1>
+      <div className="topics__input">
         <input type="text" placeholder="Suggest a topic" />
         <button>Submit</button>
       </div>
-      <div class="topics__container">
+      <div className="topics__container">
         <p>Website</p>
         <p>Css</p>
         <p>Javascript</p>

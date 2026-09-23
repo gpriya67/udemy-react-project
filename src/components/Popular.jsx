@@ -9,20 +9,20 @@ import img8 from "../assets/p-7.jpg";
 
 function Popular() {
   return (
-    <div class="popular">
-      <h1 class="popular__title">Most Popular</h1>
-      <p class="popular__subtitle">Pick the best fit</p>
-      <div class="popular__container">
-        <div class="course-card">
+    <div className="popular">
+      <h1 className="popular__title">Most Popular</h1>
+      <p className="popular__subtitle">Pick the best fit</p>
+      <div className="popular__container">
+        <div className="course-card">
           <img src={img1} alt="" />
-          <h3>2023 Python Data Visualisation Masterclass</h3>
+          <h3>2023 Python Data Visualisation MasterclassName</h3>
           <p>Col Steele</p>
           <p>4.9 ⭐⭐⭐⭐⭐ (12,450 reviews)</p>
           <p>
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img2} alt="" />
           <h3>Basic to Advance Programming with EMC</h3>
           <p>Col Steele</p>
@@ -31,7 +31,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img3} alt="" />
           <h3>Web Development BootCamp 2023</h3>
           <p>Col Steele</p>
@@ -40,7 +40,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img4} alt="" />
           <h3>Master UI/UX Designing with Figma</h3>
           <p>Col Steele</p>
@@ -49,7 +49,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img5} alt="" />
           <h3>Master UI/UX Designing with Figma</h3>
           <p>Col Steele</p>
@@ -58,7 +58,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img6} alt="" />
           <h3>Basic to Advance Programming with EMC</h3>
           <p>Col Steele</p>
@@ -67,7 +67,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img7} alt="" />
           <h3>Web Development BootCamp 2023</h3>
           <p>Col Steele</p>
@@ -76,7 +76,7 @@ function Popular() {
             ₹ 499 <del>₹ 1999</del>
           </p>
         </div>
-        <div class="course-card">
+        <div className="course-card">
           <img src={img8} alt="" />
           <h3>Master UI/UX Designing with Figma</h3>
           <p>Col Steele</p>

@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div class="footer">
-      <div class="footer__one">
-        <div class="footer__one__s1">
+    <div className="footer">
+      <div className="footer__one">
+        <div className="footer__one__s1">
           <p>
             <a href="#">Udemy Business</a>
           </p>
@@ -19,7 +19,7 @@ function Footer() {
             <a href="#">Contact Us</a>
           </p>
         </div>
-        <div class="footer__one__s2">
+        <div className="footer__one__s2">
           <p>
             <a href="#">Careers</a>
           </p>
@@ -37,7 +37,7 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div class="footer__two">
+      <div className="footer__two">
         <h1>Udemy</h1>
         <p>&copy; Udemy,Inc</p>
       </div>
